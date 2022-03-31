@@ -1,0 +1,142 @@
+####### SVM Linear on Mat w All #######
+
+Support Vector Machines with Linear Kernel 
+
+395 samples
+ 32 predictor
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 354, 357, 355, 356, 355, 355, ... 
+Resampling results across tuning parameters:
+
+  C      RMSE      Rsquared   MAE     
+  1e-03  3.014001  0.7470611  1.971144
+  1e-02  2.068202  0.8096792  1.179415
+  1e-01  1.982628  0.8156515  1.100967
+  1e+00  1.986837  0.8144202  1.105303
+  1e+01  1.986270  0.8145033  1.104660
+  1e+02  1.988335  0.8155402  1.130399
+  1e+03  2.071917  0.8068229  1.163225
+
+RMSE was used to select the optimal model using the smallest value.
+The final value used for the model was C = 0.1.
+Support Vector Machine object of class "ksvm" 
+
+SV type: eps-svr  (regression) 
+ parameter : epsilon = 0.1  cost C = 0.1 
+
+Linear (vanilla) kernel function. 
+
+Number of Support Vectors : 245 
+
+Objective Function Value : -5.929 
+Training error : 0.178381 
+
+
+####### SVM Linear on Mat w Sel #######
+
+Support Vector Machines with Linear Kernel 
+
+395 samples
+  6 predictor
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 354, 357, 355, 356, 355, 355, ... 
+Resampling results across tuning parameters:
+
+  C      RMSE      Rsquared   MAE     
+  1e-03  3.030792  0.7881516  1.980825
+  1e-02  2.022004  0.8208201  1.121653
+  1e-01  1.943003  0.8256145  1.055031
+  1e+00  1.940229  0.8256093  1.050727
+  1e+01  1.938234  0.8257238  1.050378
+  1e+02  1.938301  0.8257262  1.050381
+  1e+03  1.941271  0.8257217  1.056141
+
+RMSE was used to select the optimal model using the smallest value.
+The final value used for the model was C = 10.
+Support Vector Machine object of class "ksvm" 
+
+SV type: eps-svr  (regression) 
+ parameter : epsilon = 0.1  cost C = 10 
+
+Linear (vanilla) kernel function. 
+
+Number of Support Vectors : 227 
+
+Objective Function Value : -586.771 
+Training error : 0.182371 
+
+
+####### SVM Linear on Por w All #######
+
+Support Vector Machines with Linear Kernel 
+
+649 samples
+ 32 predictor
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 585, 585, 585, 583, 584, 584, ... 
+Resampling results across tuning parameters:
+
+  C      RMSE      Rsquared   MAE      
+  1e-03  1.664924  0.8095356  1.0888020
+  1e-02  1.290736  0.8514880  0.7891516
+  1e-01  1.257192  0.8532312  0.7891687
+  1e+00  1.256643  0.8528476  0.7926322
+  1e+01  1.256297  0.8528415  0.7930066
+  1e+02  1.278093  0.8476516  0.8314651
+  1e+03  1.265340  0.8500912  0.8169876
+
+RMSE was used to select the optimal model using the smallest value.
+The final value used for the model was C = 10.
+Support Vector Machine object of class "ksvm" 
+
+SV type: eps-svr  (regression) 
+ parameter : epsilon = 0.1  cost C = 10 
+
+Linear (vanilla) kernel function. 
+
+Number of Support Vectors : 505 
+
+Objective Function Value : -905.27 
+Training error : 0.149236 
+
+
+####### SVM Linear on Por w Sel #######
+
+Support Vector Machines with Linear Kernel 
+
+649 samples
+  6 predictor
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 585, 585, 585, 583, 584, 584, ... 
+Resampling results across tuning parameters:
+
+  C      RMSE      Rsquared   MAE      
+  1e-03  1.659574  0.8296446  1.0981553
+  1e-02  1.268923  0.8564418  0.7767562
+  1e-01  1.242976  0.8566390  0.7804320
+  1e+00  1.242843  0.8560689  0.7844719
+  1e+01  1.243210  0.8558571  0.7855277
+  1e+02  1.243153  0.8558672  0.7855147
+  1e+03  1.311624  0.8378095  0.8424567
+
+RMSE was used to select the optimal model using the smallest value.
+The final value used for the model was C = 1.
+Support Vector Machine object of class "ksvm" 
+
+SV type: eps-svr  (regression) 
+ parameter : epsilon = 0.1  cost C = 1 
+
+Linear (vanilla) kernel function. 
+
+Number of Support Vectors : 544 
+
+Objective Function Value : -93.8764 
+Training error : 0.152926 

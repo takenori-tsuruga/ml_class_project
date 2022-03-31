@@ -1,0 +1,122 @@
+####### SVM Radial on Mat wo G1 G2 #######
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Fail Pass
+      Fail   91   63
+      Pass   39  202
+                                          
+               Accuracy : 0.7418          
+                 95% CI : (0.6956, 0.7842)
+    No Information Rate : 0.6709          
+    P-Value [Acc > NIR] : 0.001353        
+                                          
+                  Kappa : 0.4415          
+                                          
+ Mcnemar's Test P-Value : 0.022766        
+                                          
+            Sensitivity : 0.7000          
+            Specificity : 0.7623          
+         Pos Pred Value : 0.5909          
+         Neg Pred Value : 0.8382          
+             Prevalence : 0.3291          
+         Detection Rate : 0.2304          
+   Detection Prevalence : 0.3899          
+      Balanced Accuracy : 0.7311          
+                                          
+       'Positive' Class : Fail            
+                                          
+
+
+####### SVM Radial on Por wo G1 G2 #######
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Fail Pass
+      Fail   96    8
+      Pass    4  541
+                                          
+               Accuracy : 0.9815          
+                 95% CI : (0.9679, 0.9904)
+    No Information Rate : 0.8459          
+    P-Value [Acc > NIR] : <2e-16          
+                                          
+                  Kappa : 0.9302          
+                                          
+ Mcnemar's Test P-Value : 0.3865          
+                                          
+            Sensitivity : 0.9600          
+            Specificity : 0.9854          
+         Pos Pred Value : 0.9231          
+         Neg Pred Value : 0.9927          
+             Prevalence : 0.1541          
+         Detection Rate : 0.1479          
+   Detection Prevalence : 0.1602          
+      Balanced Accuracy : 0.9727          
+                                          
+       'Positive' Class : Fail            
+                                          
+
+
+####### SVM Radial on Mat wo G2 #######
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Fail Pass
+      Fail  130    6
+      Pass    0  259
+                                          
+               Accuracy : 0.9848          
+                 95% CI : (0.9672, 0.9944)
+    No Information Rate : 0.6709          
+    P-Value [Acc > NIR] : < 2e-16         
+                                          
+                  Kappa : 0.966           
+                                          
+ Mcnemar's Test P-Value : 0.04123         
+                                          
+            Sensitivity : 1.0000          
+            Specificity : 0.9774          
+         Pos Pred Value : 0.9559          
+         Neg Pred Value : 1.0000          
+             Prevalence : 0.3291          
+         Detection Rate : 0.3291          
+   Detection Prevalence : 0.3443          
+      Balanced Accuracy : 0.9887          
+                                          
+       'Positive' Class : Fail            
+                                          
+
+
+####### SVM Radial on Por wo G2 #######
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Fail Pass
+      Fail   94   37
+      Pass    6  512
+                                          
+               Accuracy : 0.9337          
+                 95% CI : (0.9118, 0.9516)
+    No Information Rate : 0.8459          
+    P-Value [Acc > NIR] : 5.906e-12       
+                                          
+                  Kappa : 0.7744          
+                                          
+ Mcnemar's Test P-Value : 4.763e-06       
+                                          
+            Sensitivity : 0.9400          
+            Specificity : 0.9326          
+         Pos Pred Value : 0.7176          
+         Neg Pred Value : 0.9884          
+             Prevalence : 0.1541          
+         Detection Rate : 0.1448          
+   Detection Prevalence : 0.2018          
+      Balanced Accuracy : 0.9363          
+                                          
+       'Positive' Class : Fail            
+                                          

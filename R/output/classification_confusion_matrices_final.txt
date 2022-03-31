@@ -1,0 +1,246 @@
+####### LDA on Mat w Sel #######
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Fail Pass
+      Fail  120   29
+      Pass   10  236
+                                          
+               Accuracy : 0.9013          
+                 95% CI : (0.8675, 0.9288)
+    No Information Rate : 0.6709          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.7844          
+                                          
+ Mcnemar's Test P-Value : 0.003948        
+                                          
+            Sensitivity : 0.9231          
+            Specificity : 0.8906          
+         Pos Pred Value : 0.8054          
+         Neg Pred Value : 0.9593          
+             Prevalence : 0.3291          
+         Detection Rate : 0.3038          
+   Detection Prevalence : 0.3772          
+      Balanced Accuracy : 0.9068          
+                                          
+       'Positive' Class : Fail            
+                                          
+
+
+####### LDA on Por w Sel #######
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Fail Pass
+      Fail   92   70
+      Pass    8  479
+                                          
+               Accuracy : 0.8798          
+                 95% CI : (0.8523, 0.9038)
+    No Information Rate : 0.8459          
+    P-Value [Acc > NIR] : 0.008188        
+                                          
+                  Kappa : 0.6322          
+                                          
+ Mcnemar's Test P-Value : 4.954e-12       
+                                          
+            Sensitivity : 0.9200          
+            Specificity : 0.8725          
+         Pos Pred Value : 0.5679          
+         Neg Pred Value : 0.9836          
+             Prevalence : 0.1541          
+         Detection Rate : 0.1418          
+   Detection Prevalence : 0.2496          
+      Balanced Accuracy : 0.8962          
+                                          
+       'Positive' Class : Fail            
+                                          
+
+
+####### KNN on Mat w Sel #######
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Fail Pass
+      Fail  120   37
+      Pass   10  228
+                                          
+               Accuracy : 0.881           
+                 95% CI : (0.8449, 0.9112)
+    No Information Rate : 0.6709          
+    P-Value [Acc > NIR] : < 2.2e-16       
+                                          
+                  Kappa : 0.7441          
+                                          
+ Mcnemar's Test P-Value : 0.0001491       
+                                          
+            Sensitivity : 0.9231          
+            Specificity : 0.8604          
+         Pos Pred Value : 0.7643          
+         Neg Pred Value : 0.9580          
+             Prevalence : 0.3291          
+         Detection Rate : 0.3038          
+   Detection Prevalence : 0.3975          
+      Balanced Accuracy : 0.8917          
+                                          
+       'Positive' Class : Fail            
+                                          
+
+
+####### KNN on Por w Sel #######
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Fail Pass
+      Fail   94   68
+      Pass    6  481
+                                         
+               Accuracy : 0.886          
+                 95% CI : (0.859, 0.9094)
+    No Information Rate : 0.8459         
+    P-Value [Acc > NIR] : 0.002063       
+                                         
+                  Kappa : 0.6511         
+                                         
+ Mcnemar's Test P-Value : 1.33e-12       
+                                         
+            Sensitivity : 0.9400         
+            Specificity : 0.8761         
+         Pos Pred Value : 0.5802         
+         Neg Pred Value : 0.9877         
+             Prevalence : 0.1541         
+         Detection Rate : 0.1448         
+   Detection Prevalence : 0.2496         
+      Balanced Accuracy : 0.9081         
+                                         
+       'Positive' Class : Fail           
+                                         
+
+
+####### SVM Linear on Mat w All #######
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Fail Pass
+      Fail  127    8
+      Pass    3  257
+                                         
+               Accuracy : 0.9722         
+                 95% CI : (0.9507, 0.986)
+    No Information Rate : 0.6709         
+    P-Value [Acc > NIR] : <2e-16         
+                                         
+                  Kappa : 0.9375         
+                                         
+ Mcnemar's Test P-Value : 0.2278         
+                                         
+            Sensitivity : 0.9769         
+            Specificity : 0.9698         
+         Pos Pred Value : 0.9407         
+         Neg Pred Value : 0.9885         
+             Prevalence : 0.3291         
+         Detection Rate : 0.3215         
+   Detection Prevalence : 0.3418         
+      Balanced Accuracy : 0.9734         
+                                         
+       'Positive' Class : Fail           
+                                         
+
+
+####### SVM Linear on Por w All #######
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Fail Pass
+      Fail   94   75
+      Pass    6  474
+                                          
+               Accuracy : 0.8752          
+                 95% CI : (0.8473, 0.8996)
+    No Information Rate : 0.8459          
+    P-Value [Acc > NIR] : 0.02            
+                                          
+                  Kappa : 0.6266          
+                                          
+ Mcnemar's Test P-Value : 4.171e-14       
+                                          
+            Sensitivity : 0.9400          
+            Specificity : 0.8634          
+         Pos Pred Value : 0.5562          
+         Neg Pred Value : 0.9875          
+             Prevalence : 0.1541          
+         Detection Rate : 0.1448          
+   Detection Prevalence : 0.2604          
+      Balanced Accuracy : 0.9017          
+                                          
+       'Positive' Class : Fail            
+                                          
+
+
+####### SVM Radial on Mat w All #######
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Fail Pass
+      Fail  129    1
+      Pass    1  264
+                                          
+               Accuracy : 0.9949          
+                 95% CI : (0.9818, 0.9994)
+    No Information Rate : 0.6709          
+    P-Value [Acc > NIR] : <2e-16          
+                                          
+                  Kappa : 0.9885          
+                                          
+ Mcnemar's Test P-Value : 1               
+                                          
+            Sensitivity : 0.9923          
+            Specificity : 0.9962          
+         Pos Pred Value : 0.9923          
+         Neg Pred Value : 0.9962          
+             Prevalence : 0.3291          
+         Detection Rate : 0.3266          
+   Detection Prevalence : 0.3291          
+      Balanced Accuracy : 0.9943          
+                                          
+       'Positive' Class : Fail            
+                                          
+
+
+####### SVM Radial on Por w All #######
+
+Confusion Matrix and Statistics
+
+          Reference
+Prediction Fail Pass
+      Fail  100    2
+      Pass    0  547
+                                          
+               Accuracy : 0.9969          
+                 95% CI : (0.9889, 0.9996)
+    No Information Rate : 0.8459          
+    P-Value [Acc > NIR] : <2e-16          
+                                          
+                  Kappa : 0.9883          
+                                          
+ Mcnemar's Test P-Value : 0.4795          
+                                          
+            Sensitivity : 1.0000          
+            Specificity : 0.9964          
+         Pos Pred Value : 0.9804          
+         Neg Pred Value : 1.0000          
+             Prevalence : 0.1541          
+         Detection Rate : 0.1541          
+   Detection Prevalence : 0.1572          
+      Balanced Accuracy : 0.9982          
+                                          
+       'Positive' Class : Fail            
+                                          

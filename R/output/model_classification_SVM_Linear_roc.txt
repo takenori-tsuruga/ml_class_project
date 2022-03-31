@@ -1,0 +1,150 @@
+####### SVM Linear on Mat w All #######
+
+Support Vector Machines with Linear Kernel 
+
+395 samples
+ 32 predictor
+  2 classes: 'Fail', 'Pass' 
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 355, 355, 356, 355, 355, 356, ... 
+Resampling results across tuning parameters:
+
+  C      ROC        Sens       Spec     
+  1e-03  0.9379356  0.8923077  0.8230769
+  1e-02  0.9608262  0.7846154  0.9320513
+  1e-01  0.9667215  0.8461538  0.9357550
+  1e+00  0.9788516  0.8846154  0.9472934
+  1e+01  0.9771203  0.8538462  0.9474359
+  1e+02  0.9641464  0.8461538  0.9287749
+  1e+03  0.9589086  0.8230769  0.9175214
+
+ROC was used to select the optimal model using the largest value.
+The final value used for the model was C = 1.
+Support Vector Machine object of class "ksvm" 
+
+SV type: C-svc  (classification) 
+ parameter : cost C = 1 
+
+Linear (vanilla) kernel function. 
+
+Number of Support Vectors : 73 
+
+Objective Function Value : -39.2302 
+Training error : 0.03038 
+Probability model included. 
+
+
+####### SVM Linear on Mat w Sel #######
+
+Support Vector Machines with Linear Kernel 
+
+395 samples
+  6 predictor
+  2 classes: 'Fail', 'Pass' 
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 355, 355, 356, 355, 355, 356, ... 
+Resampling results across tuning parameters:
+
+  C      ROC        Sens       Spec     
+  1e-03  0.9731317  0.9692308  0.8193732
+  1e-02  0.9740083  0.8307692  0.9286325
+  1e-01  0.9768683  0.8384615  0.9397436
+  1e+00  0.9794762  0.8615385  0.9472934
+  1e+01  0.9783147  0.8307692  0.9435897
+  1e+02  0.9785996  0.8538462  0.9435897
+  1e+03  0.9788955  0.8384615  0.9547009
+
+ROC was used to select the optimal model using the largest value.
+The final value used for the model was C = 1.
+Support Vector Machine object of class "ksvm" 
+
+SV type: C-svc  (classification) 
+ parameter : cost C = 1 
+
+Linear (vanilla) kernel function. 
+
+Number of Support Vectors : 85 
+
+Objective Function Value : -77.3202 
+Training error : 0.070886 
+Probability model included. 
+
+
+####### SVM Linear on Por w All #######
+
+Support Vector Machines with Linear Kernel 
+
+649 samples
+ 32 predictor
+  2 classes: 'Fail', 'Pass' 
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 584, 584, 584, 584, 584, 584, ... 
+Resampling results across tuning parameters:
+
+  C      ROC        Sens  Spec     
+  1e-03  0.9424680  0.65  0.9453535
+  1e-02  0.9398956  0.58  0.9580808
+  1e-01  0.9529933  0.65  0.9781145
+  1e+00  0.9488384  0.62  0.9745118
+  1e+01  0.9488350  0.46  0.9854209
+  1e+02  0.9490168  0.24  0.9945455
+  1e+03  0.9501178  0.17  1.0000000
+
+ROC was used to select the optimal model using the largest value.
+The final value used for the model was C = 0.1.
+Support Vector Machine object of class "ksvm" 
+
+SV type: C-svc  (classification) 
+ parameter : cost C = 0.1 
+
+Linear (vanilla) kernel function. 
+
+Number of Support Vectors : 137 
+
+Objective Function Value : -10.1945 
+Training error : 0.050847 
+Probability model included. 
+
+
+####### SVM Linear on Por w Sel #######
+
+Support Vector Machines with Linear Kernel 
+
+649 samples
+  6 predictor
+  2 classes: 'Fail', 'Pass' 
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 584, 584, 584, 584, 584, 584, ... 
+Resampling results across tuning parameters:
+
+  C      ROC        Sens  Spec     
+  1e-03  0.9605825  0.74  0.9471380
+  1e-02  0.9613098  0.70  0.9544444
+  1e-01  0.9677778  0.66  0.9781481
+  1e+00  0.9667845  0.65  0.9763300
+  1e+01  0.9664276  0.67  0.9726936
+  1e+02  0.9662458  0.65  0.9781481
+  1e+03  0.9664242  0.64  0.9763300
+
+ROC was used to select the optimal model using the largest value.
+The final value used for the model was C = 0.1.
+Support Vector Machine object of class "ksvm" 
+
+SV type: C-svc  (classification) 
+ parameter : cost C = 0.1 
+
+Linear (vanilla) kernel function. 
+
+Number of Support Vectors : 137 
+
+Objective Function Value : -11.6805 
+Training error : 0.057011 
+Probability model included. 

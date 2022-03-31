@@ -1,0 +1,174 @@
+####### KNN on Mat w All #######
+
+k-Nearest Neighbors 
+
+395 samples
+ 32 predictor
+  2 classes: 'Fail', 'Pass' 
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 355, 355, 356, 355, 355, 356, ... 
+Resampling results across tuning parameters:
+
+  k   Accuracy   Kappa    
+   1  0.7546154  0.4377548
+   3  0.7948077  0.5114226
+   5  0.7925000  0.4918863
+   7  0.7875000  0.4849502
+   9  0.8152564  0.5459623
+  11  0.8076282  0.5270564
+  13  0.8129487  0.5397752
+  15  0.8051923  0.5169145
+  17  0.8203846  0.5513372
+  19  0.8253205  0.5647897
+  21  0.8278205  0.5694798
+  23  0.8253846  0.5620613
+  25  0.8304487  0.5712047
+  27  0.8328205  0.5773466
+  29  0.8328846  0.5772603
+  31  0.8353846  0.5803307
+  33  0.8226923  0.5434112
+  35  0.8251923  0.5506564
+  37  0.8151282  0.5227912
+  39  0.8125641  0.5149651
+  41  0.8151282  0.5203338
+  43  0.8125641  0.5127976
+  45  0.8050641  0.4898228
+  47  0.8025000  0.4815870
+  49  0.8024359  0.4812214
+
+Accuracy was used to select the optimal model using the largest value.
+The final value used for the model was k = 31.
+
+
+####### KNN on Mat w Sel #######
+
+k-Nearest Neighbors 
+
+395 samples
+  6 predictor
+  2 classes: 'Fail', 'Pass' 
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 355, 355, 356, 355, 355, 356, ... 
+Resampling results across tuning parameters:
+
+  k   Accuracy   Kappa    
+   1  0.8457051  0.6489621
+   3  0.8582692  0.6734990
+   5  0.8658333  0.6864153
+   7  0.8887179  0.7364041
+   9  0.8836538  0.7272760
+  11  0.8760897  0.7095316
+  13  0.8785256  0.7143856
+  15  0.8911538  0.7424170
+  17  0.8961538  0.7519558
+  19  0.8961538  0.7524362
+  21  0.8937821  0.7454327
+  23  0.8912821  0.7367358
+  25  0.8860256  0.7252335
+  27  0.8885897  0.7323198
+  29  0.8936538  0.7461418
+  31  0.8886538  0.7328399
+  33  0.8910897  0.7395103
+  35  0.8910897  0.7395103
+  37  0.8835256  0.7216641
+  39  0.8834615  0.7197512
+  41  0.8962179  0.7500379
+  43  0.8910897  0.7367726
+  45  0.8860897  0.7229972
+  47  0.8835897  0.7178392
+  49  0.8860897  0.7260141
+
+Accuracy was used to select the optimal model using the largest value.
+The final value used for the model was k = 41.
+
+
+####### KNN on Por w All #######
+
+k-Nearest Neighbors 
+
+649 samples
+ 32 predictor
+  2 classes: 'Fail', 'Pass' 
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 584, 584, 584, 584, 584, 584, ... 
+Resampling results across tuning parameters:
+
+  k   Accuracy   Kappa    
+   1  0.8766106  0.4624003
+   3  0.8675240  0.3549174
+   5  0.8674760  0.3220425
+   7  0.8751683  0.3544848
+   9  0.8721154  0.3302704
+  11  0.8659615  0.2916034
+  13  0.8705769  0.3176073
+  15  0.8644231  0.2839678
+  17  0.8706010  0.3100011
+  19  0.8690385  0.2855599
+  21  0.8721154  0.3102179
+  23  0.8752163  0.3169676
+  25  0.8675240  0.2444147
+  27  0.8628846  0.2144876
+  29  0.8659615  0.2336691
+  31  0.8659615  0.2320752
+  33  0.8675000  0.2435142
+  35  0.8644231  0.2226953
+  37  0.8613462  0.1964844
+  39  0.8598077  0.1840868
+  41  0.8567308  0.1645942
+  43  0.8536298  0.1246488
+  45  0.8567067  0.1410789
+  47  0.8567067  0.1281293
+  49  0.8567067  0.1184789
+
+Accuracy was used to select the optimal model using the largest value.
+The final value used for the model was k = 1.
+
+
+####### KNN on Por w Sel #######
+
+k-Nearest Neighbors 
+
+649 samples
+  6 predictor
+  2 classes: 'Fail', 'Pass' 
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 584, 584, 584, 584, 584, 584, ... 
+Resampling results across tuning parameters:
+
+  k   Accuracy   Kappa    
+   1  0.8951923  0.5677143
+   3  0.9044231  0.6003477
+   5  0.8889904  0.5188342
+   7  0.8936058  0.5358392
+   9  0.9043990  0.5705214
+  11  0.9043990  0.5739932
+  13  0.9012981  0.5427976
+  15  0.8998317  0.5314038
+  17  0.9044231  0.5547594
+  19  0.8998077  0.5292832
+  21  0.8952163  0.4959808
+  23  0.8982933  0.5133900
+  25  0.9013702  0.5256859
+  27  0.9029087  0.5289914
+  29  0.8952163  0.4721834
+  31  0.8936779  0.4598749
+  33  0.8936779  0.4636523
+  35  0.8936779  0.4541495
+  37  0.8952163  0.4743953
+  39  0.8890625  0.4469710
+  41  0.8890625  0.4468850
+  43  0.8905769  0.4513364
+  45  0.8921154  0.4521576
+  47  0.8921154  0.4514309
+  49  0.8921154  0.4489675
+
+Accuracy was used to select the optimal model using the largest value.
+The final value used for the model was k = 17.

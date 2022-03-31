@@ -1,0 +1,150 @@
+####### SVM Linear on Mat w All #######
+
+Support Vector Machines with Linear Kernel 
+
+395 samples
+ 32 predictor
+  2 classes: 'Fail', 'Pass' 
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 355, 355, 356, 355, 355, 356, ... 
+Resampling results across tuning parameters:
+
+  C      Accuracy   Kappa    
+  1e-03  0.8455769  0.6718867
+  1e-02  0.8835256  0.7291824
+  1e-01  0.9063462  0.7844924
+  1e+00  0.9267308  0.8324107
+  1e+01  0.9165385  0.8080224
+  1e+02  0.9016026  0.7772584
+  1e+03  0.8864103  0.7430389
+
+Accuracy was used to select the optimal model using the largest value.
+The final value used for the model was C = 1.
+Support Vector Machine object of class "ksvm" 
+
+SV type: C-svc  (classification) 
+ parameter : cost C = 1 
+
+Linear (vanilla) kernel function. 
+
+Number of Support Vectors : 73 
+
+Objective Function Value : -39.2302 
+Training error : 0.03038 
+Probability model included. 
+
+
+####### SVM Linear on Mat w Sel #######
+
+Support Vector Machines with Linear Kernel 
+
+395 samples
+  6 predictor
+  2 classes: 'Fail', 'Pass' 
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 355, 355, 356, 355, 355, 356, ... 
+Resampling results across tuning parameters:
+
+  C      Accuracy   Kappa    
+  1e-03  0.8685897  0.7286589
+  1e-02  0.8963462  0.7632475
+  1e-01  0.9064103  0.7851838
+  1e+00  0.9189744  0.8152175
+  1e+01  0.9064744  0.7849402
+  1e+02  0.9140385  0.8043471
+  1e+03  0.9164744  0.8073857
+
+Accuracy was used to select the optimal model using the largest value.
+The final value used for the model was C = 1.
+Support Vector Machine object of class "ksvm" 
+
+SV type: C-svc  (classification) 
+ parameter : cost C = 1 
+
+Linear (vanilla) kernel function. 
+
+Number of Support Vectors : 85 
+
+Objective Function Value : -77.3202 
+Training error : 0.070886 
+Probability model included. 
+
+
+####### SVM Linear on Por w All #######
+
+Support Vector Machines with Linear Kernel 
+
+649 samples
+ 32 predictor
+  2 classes: 'Fail', 'Pass' 
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 584, 584, 584, 584, 584, 584, ... 
+Resampling results across tuning parameters:
+
+  C      Accuracy   Kappa    
+  1e-03  0.8998558  0.6068634
+  1e-02  0.8998077  0.5789509
+  1e-01  0.9275721  0.6886938
+  1e+00  0.9198798  0.6533424
+  1e+01  0.9044952  0.5362367
+  1e+02  0.8782692  0.3059190
+  1e+03  0.8720673  0.2070675
+
+Accuracy was used to select the optimal model using the largest value.
+The final value used for the model was C = 0.1.
+Support Vector Machine object of class "ksvm" 
+
+SV type: C-svc  (classification) 
+ parameter : cost C = 0.1 
+
+Linear (vanilla) kernel function. 
+
+Number of Support Vectors : 137 
+
+Objective Function Value : -10.1945 
+Training error : 0.050847 
+Probability model included. 
+
+
+####### SVM Linear on Por w Sel #######
+
+Support Vector Machines with Linear Kernel 
+
+649 samples
+  6 predictor
+  2 classes: 'Fail', 'Pass' 
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 584, 584, 584, 584, 584, 584, ... 
+Resampling results across tuning parameters:
+
+  C      Accuracy   Kappa    
+  1e-03  0.9152404  0.6753123
+  1e-02  0.9152404  0.6643166
+  1e-01  0.9291346  0.6972342
+  1e+00  0.9260337  0.6821273
+  1e+01  0.9260817  0.6901810
+  1e+02  0.9275962  0.6894323
+  1e+03  0.9245192  0.6751258
+
+Accuracy was used to select the optimal model using the largest value.
+The final value used for the model was C = 0.1.
+Support Vector Machine object of class "ksvm" 
+
+SV type: C-svc  (classification) 
+ parameter : cost C = 0.1 
+
+Linear (vanilla) kernel function. 
+
+Number of Support Vectors : 137 
+
+Objective Function Value : -11.6805 
+Training error : 0.057011 
+Probability model included. 

@@ -1,0 +1,252 @@
+####### LDA on Mat w All #######
+
+Linear Discriminant Analysis 
+
+395 samples
+ 32 predictor
+  2 classes: 'Fail', 'Pass' 
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 355, 355, 356, 355, 355, 356, ... 
+Resampling results:
+
+  ROC      Sens       Spec     
+  0.95778  0.7846154  0.9246439
+
+Call:
+lda(x, grouping = y)
+
+Prior probabilities of groups:
+     Fail      Pass 
+0.3291139 0.6708861 
+
+Group means:
+      schoolMS      sexM        age  addressU famsizeLE3  PstatusT        Medu        Fedu Mjobhealth Mjobother
+Fail 0.1307692 0.4230769  0.2561626 0.7461538  0.2615385 0.9153846 -0.16454786 -0.15408266 0.05384615 0.4076923
+Pass 0.1094340 0.4981132 -0.1256647 0.7924528  0.3018868 0.8867925  0.08072159  0.07558772 0.10188679 0.3320755
+     Mjobservices Mjobteacher Fjobhealth Fjobother Fjobservices Fjobteacher reasonhome reasonother
+Fail    0.2230769   0.1461538 0.04615385 0.5307692    0.3076923  0.05384615  0.2769231  0.06923077
+Pass    0.2792453   0.1471698 0.04528302 0.5584906    0.2679245  0.08301887  0.2754717  0.10188679
+     reasonreputation guardianmother guardianother  traveltime   studytime   failures schoolsupyes famsupyes
+Fail        0.2230769      0.6846154    0.12307692  0.06337796 -0.10639287  0.4815841    0.1769231 0.6538462
+Pass        0.2867925      0.6943396    0.06037736 -0.03109107  0.05219273 -0.2362488    0.1056604 0.5924528
+       paidyes activitiesyes nurseryyes higheryes internetyes romanticyes     famrel    freetime      goout
+Fail 0.3923077     0.5000000  0.8000000 0.9000000   0.8000000   0.4000000 -0.0665676  0.02612515  0.2615153
+Pass 0.4905660     0.5132075  0.7924528 0.9735849   0.8490566   0.3018868  0.0326558 -0.01281611 -0.1282905
+            Dalc        Walc      health    absences         G1         G2
+Fail  0.08176727  0.04271663  0.09363784  0.13153381 -0.9482187 -1.0343858
+Pass -0.04011225 -0.02095533 -0.04593554 -0.06452602  0.4651639  0.5074346
+
+Coefficients of linear discriminants:
+                          LD1
+schoolMS          0.041884825
+sexM             -0.084056794
+age              -0.156959349
+addressU         -0.035075312
+famsizeLE3       -0.096055937
+PstatusT         -0.253578822
+Medu             -0.050757747
+Fedu              0.045906130
+Mjobhealth       -0.177056298
+Mjobother        -0.147942832
+Mjobservices     -0.005716218
+Mjobteacher      -0.210772988
+Fjobhealth       -0.083150799
+Fjobother         0.352446965
+Fjobservices     -0.008602729
+Fjobteacher      -0.046657722
+reasonhome        0.165995385
+reasonother       0.299816652
+reasonreputation  0.153566901
+guardianmother   -0.035553110
+guardianother    -0.257418063
+traveltime        0.099340814
+studytime        -0.045940009
+failures         -0.116285067
+schoolsupyes     -0.038402891
+famsupyes        -0.060407475
+paidyes           0.090905104
+activitiesyes    -0.094801784
+nurseryyes       -0.277010623
+higheryes         0.010963860
+internetyes       0.006644600
+romanticyes       0.042377221
+famrel            0.144669736
+freetime          0.015306659
+goout            -0.187073798
+Dalc             -0.060196572
+Walc              0.220105692
+health           -0.026732180
+absences         -0.127885073
+G1                0.399661628
+G2                1.088368239
+
+
+####### LDA on Mat w Sel #######
+
+Linear Discriminant Analysis 
+
+395 samples
+  6 predictor
+  2 classes: 'Fail', 'Pass' 
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 355, 355, 356, 355, 355, 356, ... 
+Resampling results:
+
+  ROC        Sens       Spec     
+  0.9779969  0.8461538  0.9396011
+
+Call:
+lda(x, grouping = y)
+
+Prior probabilities of groups:
+     Fail      Pass 
+0.3291139 0.6708861 
+
+Group means:
+            age activitiesyes     famrel    absences         G1         G2
+Fail  0.2561626     0.5000000 -0.0665676  0.13153381 -0.9482187 -1.0343858
+Pass -0.1256647     0.5132075  0.0326558 -0.06452602  0.4651639  0.5074346
+
+Coefficients of linear discriminants:
+                     LD1
+age           -0.1719588
+activitiesyes -0.1527320
+famrel         0.1138552
+absences      -0.1040017
+G1             0.3665350
+G2             1.1216630
+
+
+####### LDA on Por w All #######
+
+Linear Discriminant Analysis 
+
+649 samples
+ 32 predictor
+  2 classes: 'Fail', 'Pass' 
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 584, 584, 584, 584, 584, 584, ... 
+Resampling results:
+
+  ROC        Sens  Spec     
+  0.9319158  0.58  0.9617172
+
+Call:
+lda(x, grouping = y)
+
+Prior probabilities of groups:
+     Fail      Pass 
+0.1540832 0.8459168 
+
+Group means:
+     schoolMS      sexM         age  addressU famsizeLE3  PstatusT        Medu        Fedu Mjobhealth Mjobother
+Fail 0.680000 0.5000000  0.25923025 0.5600000  0.2400000 0.8800000 -0.33902184 -0.34240839 0.06000000 0.4200000
+Pass 0.287796 0.3934426 -0.04721862 0.7213115  0.3060109 0.8761384  0.06175261  0.06236947 0.07650273 0.3934426
+     Mjobservices Mjobteacher Fjobhealth Fjobother Fjobservices Fjobteacher reasonhome reasonother
+Fail    0.1900000   0.0400000 0.03000000 0.5400000    0.3300000  0.03000000  0.1700000  0.18000000
+Pass    0.2131148   0.1238616 0.03642987 0.5701275    0.2695811  0.06010929  0.2404372  0.09836066
+     reasonreputation guardianmother guardianother  traveltime   studytime   failures schoolsupyes famsupyes
+Fail        0.1000000      0.7500000     0.0900000  0.13548602 -0.38656884  0.8902375    0.0800000 0.5700000
+Pass        0.2422587      0.6921676     0.0582878 -0.02467869  0.07041327 -0.1621562    0.1092896 0.6211293
+        paidyes activitiesyes nurseryyes higheryes internetyes romanticyes     famrel    freetime       goout
+Fail 0.09000000     0.4300000  0.8100000 0.6700000   0.6800000   0.4600000 -0.1053268  0.21855606  0.15742940
+Pass 0.05464481     0.4954463  0.8014572 0.9344262   0.7832423   0.3515483  0.0191852 -0.03980985 -0.02867566
+            Dalc        Walc       health    absences        G1         G2
+Fail  0.28944505  0.27216912  0.023364035  0.20482079 -1.318297 -1.3866194
+Pass -0.05272223 -0.04957543 -0.004255744 -0.03730798  0.240127  0.2525718
+
+Coefficients of linear discriminants:
+                          LD1
+schoolMS         -0.717891344
+sexM             -0.062633868
+age               0.078147212
+addressU          0.030712672
+famsizeLE3        0.095072659
+PstatusT         -0.084004169
+Medu             -0.068056771
+Fedu              0.070048122
+Mjobhealth       -0.277841354
+Mjobother        -0.117347827
+Mjobservices     -0.054879272
+Mjobteacher       0.108774616
+Fjobhealth       -0.770805528
+Fjobother        -0.437689744
+Fjobservices     -0.535606825
+Fjobteacher      -1.103582478
+reasonhome        0.048169935
+reasonother       0.003721177
+reasonreputation  0.017562504
+guardianmother   -0.263148129
+guardianother     0.106666552
+traveltime        0.148525498
+studytime        -0.069078773
+failures         -0.341815140
+schoolsupyes      0.307271767
+famsupyes         0.027697253
+paidyes          -0.213218673
+activitiesyes     0.058719849
+nurseryyes       -0.214556335
+higheryes         0.630481636
+internetyes      -0.099642508
+romanticyes      -0.014746812
+famrel           -0.026639078
+freetime         -0.030315457
+goout             0.020602158
+Dalc              0.021876863
+Walc             -0.061056587
+health            0.071837576
+absences         -0.068647937
+G1                0.267155108
+G2                0.751721207
+
+
+####### LDA on Por w Sel #######
+
+Linear Discriminant Analysis 
+
+649 samples
+  6 predictor
+  2 classes: 'Fail', 'Pass' 
+
+No pre-processing
+Resampling: Cross-Validated (10 fold) 
+Summary of sample sizes: 584, 584, 584, 584, 584, 584, ... 
+Resampling results:
+
+  ROC        Sens  Spec     
+  0.9496599  0.57  0.9708754
+
+Call:
+lda(x, grouping = y)
+
+Prior probabilities of groups:
+     Fail      Pass 
+0.1540832 0.8459168 
+
+Group means:
+     Fjobhealth Fjobother Fjobservices Fjobteacher reasonhome reasonother reasonreputation  traveltime
+Fail 0.03000000 0.5400000    0.3300000  0.03000000  0.1700000  0.18000000        0.1000000  0.13548602
+Pass 0.03642987 0.5701275    0.2695811  0.06010929  0.2404372  0.09836066        0.2422587 -0.02467869
+       failures        G1         G2
+Fail  0.8902375 -1.318297 -1.3866194
+Pass -0.1621562  0.240127  0.2525718
+
+Coefficients of linear discriminants:
+                         LD1
+Fjobhealth       -0.51243121
+Fjobother        -0.29102731
+Fjobservices     -0.41959370
+Fjobteacher      -0.72541402
+reasonhome        0.11410830
+reasonother      -0.20604722
+reasonreputation  0.04949581
+traveltime        0.09799352
+failures         -0.35270638
+G1                0.36441076
+G2                0.78220472
